@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html{
+    height: 100%;
+} */
+body{
+    min-height: 100vh;
+} 
+
+@font-face {
+    font-family: graduate;
+    src: url("../fonts/Graduate-Regular.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+/*Aqui comienza el Header*/
+.classHeader{
+    background-color: #004e5ff8;
+    justify-items: center;
+    align-items: center;
+    padding: 16px;
+}
+.listaMenu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-top:  15px;
+    border-top:  2px solid rgb(255, 204, 0);
+}    
+.listaMenu li a{
+    font-family: 'Space Grotesk', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #7b90a1;
+    margin-right: 2rem;
+}
+.listaMenu li a:hover {
+    color: #f6a801;
+    transition: 1s;
+    text-shadow: none;
+}
+.logo{
+    width: 8rem;
+    height: 8rem;
+    /* margin: 10px; */
+    
+    
+}
+
+
+/*Aqui comienza el main*/
+
+.contenedorGrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    justify-items: center;
+    align-items: center;    
+}
+.cards{
+    width: 400px;
+    border-radius: 10px;
+    border: solid 1px black;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    margin: 15px;
+    position: relative;
+    background-size: cover;
+
+}
+.cards .portada{
+    width: 100%;
+    text-align: justify;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.textos{
+    text-align: justify;
+}
+.cards .textos .boton{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.boton{
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #009d71;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 15px;
+}
+h1{
+    font-family: graduate; color: #f6a801;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    padding: 5%;
+    text-shadow: 1px 1px 1px red;
+}
+h2{
+    font-family: graduate;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*Aqui comienza el footer*/
+.pieDePagina{
+    background-color:#fad000;
+    /* display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    justify-items: center; */
+    padding: 30px;
+}
+.iconos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.iconos-footer{
+    height: 3rem;
+    width: 3rem;
+    display: inline-block;
+    
+}
+
+.contacto__parrafo{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 40px;
+    padding: 10px;
+    text-shadow: 1px 1px 1px rgb(255, 0, 0);
+}
+.formulario__class{
+    font-family: 'Space Grotesk', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin: 20px;
+    padding: 30px;
+}
+
+
+@media only screen and (max-width:768px) {
+    .logo{
+        right: 0;
+        position: relative;
+        bottom: 5px;
+        left:300px;
+    }
+    
+    .listaMenu {
+        position: relative;
+        right: 0;
+    
+    }
+    
+    h1{
+        font-size: 40px;
+        position: relative;
+        right: 0;
+        
+    }
+    .cards{
+        position: relative;
+        right: 10px;
+    }
+
+    .iconos{
+        display:flex;
+        justify-content:space-evenly ;
+        
+    }
+    
+     .classHeader{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .contenedorGrid{
+        grid-template-columns: 1fr;
+        
+    } 
+}
+
+@media only screen and (max-width:320px) {
+    .classHeader{
+        /* background-color: #004e5ff8;
+        justify-items: center;
+        align-items: center;
+        padding: 16px; */
+        min-width: 320px;
+    }
+    
+    .logo{
+        left:160px;
+    }
+
+    .listaMenu {
+        position: relative;
+        right: 0;
+        display: block;
+        text-align: center;
+    }
+
+    .listaMenu li a{
+        font-size:20px;
+        position: relative;
+        left: 20px;
+    }
+
+    h1{
+        position: relative;
+        left: 70px;
+    }
+
+    .cards{
+        position: relative;
+        left: 20px;
+    }
+
+    .pieDePagina{
+        min-width: 468px;
+    }
+
+}
+
+/* CONTACTO */
+
+.main-grid{
+    display:grid;
+    grid-template-areas: 
+    "titulo titulo "
+    "texto texto "
+    "form  map"
+    ;
+}
+
+h2{
+    grid-area: titulo;
+}
+
+.contacto__parrafo{
+    grid-area: texto;
+}
+
+.formulario__class{
+    grid-area: form;
+}
+
+.mapa__class{
+    grid-area: map;
+    margin: 20px;
+}
+
+@media only screen and (max-width:320px) {
+    .classHeader{
+        
+        min-width: 470px;
+    }
+    
+    .logo{
+        left:160px;
+    }
+
+    .listaMenu {
+        position: relative;
+        right: 0;
+        display: block;
+        text-align: center;
+    }
+
+    .listaMenu li a{
+        font-size:20px;
+        position: relative;
+        left: 20px;
+    }
+
+    .main-grid{
+        display:grid;
+        grid-template-areas: 
+        "titulo  "
+        "texto  "
+        "form "
+        ;
+    }
+   
+    h2{
+        position: relative;
+        left: 90px;
+        top:10px;
+        font-size: 60px;
+    }
+    .contacto__parrafo{
+        color:rgb(0, 0, 0);
+        position: relative;
+        left: 90px;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+
+
+    .mapa__class{
+        width: 400px;
+        position: relative;
+        right: 285px;
+    }
+    .pieDePagina{
+        min-width: 468px;
+    }
+}
