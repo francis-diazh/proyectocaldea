@@ -27,8 +27,9 @@ body{
     list-style-type: none;
     display: flex;
     justify-content: center;
-    padding-top:  15px;
-    border-top:  2px solid rgb(255, 204, 0);
+    padding:  15px;
+    border-top:  2px solid #f6a801;
+    border-bottom: 2px solid #f6a801 ;
 }    
 .listaMenu li a{
     font-family: 'Space Grotesk', sans-serif;
@@ -121,7 +122,7 @@ a{
 
 /*Aqui comienza el footer*/
 .pieDePagina{
-    background-color:#fad000;
+    background-color:#e0db3f;
     /* display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     justify-items: center; */
@@ -240,6 +241,28 @@ a{
         min-width: 468px;
     }
 
+    
+    h2{
+        position: relative;
+        left: 90px;
+        top:10px;
+        font-size: 60px;
+    }
+    .contacto__parrafo{
+        color:rgb(0, 0, 0);
+        position: relative;
+        left: 90px;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+
+
+    .mapa__class{
+        width: 400px;
+        position: relative;
+        right: 285px;
+    }
 }
 
 /* CONTACTO */
@@ -265,65 +288,12 @@ h2{
     grid-area: form;
 }
 
+
 .mapa__class{
     grid-area: map;
     margin: 20px;
 }
 
-@media only screen and (max-width:320px) {
-    .classHeader{
-        
-        min-width: 470px;
-    }
-    
-    .logo{
-        left:160px;
-    }
-
-    .listaMenu {
-        position: relative;
-        right: 0;
-        display: block;
-        text-align: center;
-    }
-
-    .listaMenu li a{
-        font-size:20px;
-        position: relative;
-        left: 20px;
-    }
-
-    .main-grid{
-        display:grid;
-        grid-template-areas: 
-        "titulo  "
-        "texto  "
-        "form "
-        ;
-    }
-   
-    h2{
-        position: relative;
-        left: 90px;
-        top:10px;
-        font-size: 60px;
-    }
-    .contacto__parrafo{
-        color:rgb(0, 0, 0);
-        position: relative;
-        left: 90px;
-        text-align: center;
-        font-size: 25px;
-        
-    }
-
-
-    .mapa__class{
-        width: 400px;
-        position: relative;
-        right: 285px;
-    }
-    .pieDePagina{
-        min-width: 468px;
-    }
+.main{
+    background-image: linear-gradient(to bottom, #004e5ff8, #e0db3f);
 }
