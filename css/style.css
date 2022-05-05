@@ -1,17 +1,20 @@
 
 @font-face {
-    font-family: graduate;
+      font-family: graduate;
     src: url("../fonts/Graduate-Regular.ttf");
 }
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 
+
 .classHeader{
     background-color: #004e5ff8;
-    /* justify-items: center;
-    align-items: center;
-    padding: 16px; */
 }
    
+.navbar a:hover {
+    color: #f6a801 !important;
+    transition: 2s;
+    text-shadow: none;
+}
 .nav-link{
     font-family: graduate;
     text-decoration: none;
@@ -19,19 +22,13 @@
     font-size: 20px;
     font-weight: bold;
     text-shadow: 2px 2px 2px #d1d1d14a;
-   
-}
-.navbar a:hover {
-    color: #f6a801 !important;
-    transition: 2s;
-    text-shadow: none;
 }
 
 .logo{
     width: 8rem;
     height: 8rem;
-      
 }
+
 .main{
     background-image: linear-gradient(to bottom, #004e5ff8, #e0db3f);
 }
@@ -39,30 +36,22 @@
     width: 415px;
     border-radius: 10px;
     border: solid 2px black;
-
     padding: 10px;
     text-align: center;
     margin: 15px;
-
-
 }
-.cards .portada{
-
+.portada{
     text-align: justify;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 .textos{
     text-align: justify;
-    
 }
-.cards .textos .boton{
 
+.boton{
     display: grid;
     grid-template-columns: auto;
-    font-family: 'Space Grotesk', sans-serif;
-}
-.boton{
     font-family: 'Space Grotesk', sans-serif;
     text-decoration: none;
     border-radius: 10px;
@@ -72,14 +61,13 @@
     padding: 10px;
     text-align: center;
     margin: 10px;
-}
+} 
+
 .boton-contacto{
     background-color: #009d71;
     border-radius: 10px;
     margin-top: 10px;
-    font-weight: bold;
-    
-    
+    font-weight: bold;    
 }
 h1{
     font-family: graduate; color: #f6a801;
@@ -100,7 +88,8 @@ a{
     text-decoration: none;
 }
 
-.pieDePagina{
+
+ .pieDePagina{
     background-color:#e0db3f;
   
     padding: 30px;
@@ -109,14 +98,12 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
 }
 .iconos-footer{
     height: 3rem;
     width: 3rem;
-    display: inline-block;
-    
-}
+    display: inline-block;   
+} 
 
 .contacto__parrafo{
     font-family: 'Space Grotesk', sans-serif;

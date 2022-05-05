@@ -1,0 +1,38 @@
+.classHeader {
+    background-color: #004e5ff8;
+    .navbar{
+        .container-fluid{
+            .navbar-brand{
+                .logo{
+                    width: 8rem;
+                    height: 8rem;
+                }
+            }
+            .collapse{
+                .navbar-nav{
+                    li{
+                        a{
+                            font-family: graduate;
+                            text-decoration: none;
+                            color: rgb(255, 255, 255) !important;
+                            font-size: 20px;
+                            font-weight: bold;
+                            text-shadow: 2px 2px 2px #d1d1d14a;
+                         &:hover{
+                            color: #f6a801 !important;
+                            transition: 2s;
+                            text-shadow: none;
+                         }
+                        }
+                    }
+
+                }
+            }
+        }
+        a:hover {
+            color: #f6a801 !important;
+            transition: 2s;
+            text-shadow: none;
+        }
+    }
+}

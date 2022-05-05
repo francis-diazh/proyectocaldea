@@ -1,0 +1,14 @@
+.pieDePagina{
+    background-color:$color-footer;
+    padding: 30px;
+    .iconos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .iconos-footer{
+            height: 3rem;
+            width: 3rem;
+             display: inline-block; 
+        }
+    }
+}

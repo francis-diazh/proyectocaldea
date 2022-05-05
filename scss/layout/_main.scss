@@ -1,0 +1,49 @@
+main{
+    background-image: linear-gradient(to bottom, #004e5ff8, #e0db3f);
+    h1{
+        font-family: graduate; color: #f6a801;
+        font-weight: bold;
+        text-align: center;
+        font-size: 60px;
+        text-shadow: 1px 1px 1px red;
+    }
+    .cards{
+        width: 415px;
+        border-radius: 10px;
+        border: solid 2px black;
+        padding: 10px;
+        text-align: center;
+        margin: 15px;
+        .portada{
+            text-align: justify;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        h2{
+            font-family: graduate; color: #000000;
+            font-weight: bold;
+            font-size: 40px;
+            text-align: center;
+            text-shadow: 1px 1px 1px #f6a801;
+        }
+        .textos{
+            text-align: justify;
+            .boton{
+                display: grid;
+                grid-template-columns: auto;
+                font-family: 'Space Grotesk', sans-serif;
+                text-decoration: none;
+                border-radius: 10px;
+                font-weight: bold;
+                background-color: #009d71;
+                color: white;
+                padding: 10px;
+                text-align: center;
+                margin: 10px;
+            }
+        }
+
+    }
+
+
+}

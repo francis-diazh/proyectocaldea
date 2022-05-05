@@ -1,0 +1,74 @@
+.classHeader {
+  background-color: #004e5ff8; }
+  .classHeader .navbar .container-fluid .navbar-brand .logo {
+    width: 8rem;
+    height: 8rem; }
+  .classHeader .navbar .container-fluid .collapse .navbar-nav li a {
+    font-family: graduate;
+    text-decoration: none;
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #d1d1d14a; }
+    .classHeader .navbar .container-fluid .collapse .navbar-nav li a:hover {
+      color: #f6a801 !important;
+      transition: 2s;
+      text-shadow: none; }
+  .classHeader .navbar a:hover {
+    color: #f6a801 !important;
+    transition: 2s;
+    text-shadow: none; }
+
+main {
+  background-image: linear-gradient(to bottom, #004e5ff8, #e0db3f); }
+  main h1 {
+    font-family: graduate;
+    color: #f6a801;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 1px 1px 1px red; }
+  main .cards {
+    width: 415px;
+    border-radius: 10px;
+    border: solid 2px black;
+    padding: 10px;
+    text-align: center;
+    margin: 15px; }
+    main .cards .portada {
+      text-align: justify;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px; }
+    main .cards h2 {
+      font-family: graduate;
+      color: #000000;
+      font-weight: bold;
+      font-size: 40px;
+      text-align: center;
+      text-shadow: 1px 1px 1px #f6a801; }
+    main .cards .textos {
+      text-align: justify; }
+      main .cards .textos .boton {
+        display: grid;
+        grid-template-columns: auto;
+        font-family: 'Space Grotesk', sans-serif;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: bold;
+        background-color: #009d71;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        margin: 10px; }
+
+.pieDePagina {
+  background-color: #e0db3f;
+  padding: 30px; }
+  .pieDePagina .iconos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+    .pieDePagina .iconos .iconos-footer {
+      height: 3rem;
+      width: 3rem;
+      display: inline-block; }
