@@ -1,3 +1,19 @@
+/*EXTEND*/
+.boton-contacto, .boton {
+  background-color: #009d71;
+  border-radius: 10px;
+  margin: 10px;
+  font-weight: bold; }
+
+.boton {
+  display: grid;
+  grid-template-columns: auto;
+  font-family: 'Space Grotesk', sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  text-align: center; }
+
 .classHeader {
   background-color: #004e5ff8; }
   .classHeader .navbar .container-fluid .navbar-brand .logo {

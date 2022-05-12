@@ -1,6 +1,6 @@
 .pieDePagina{
-    background-color:$color-footer;
-    padding: 30px;
+    background-color: map-get($footer, color );
+    padding: map-get($footer, 30px );
     .iconos{
         display: flex;
         flex-wrap: wrap;
