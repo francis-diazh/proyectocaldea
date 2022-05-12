@@ -5,7 +5,6 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 
-
 .classHeader{
     background-color: #004e5ff8;
 }
@@ -47,6 +46,7 @@
 }
 .textos{
     text-align: justify;
+    
 }
 
 .boton{
@@ -61,13 +61,14 @@
     padding: 10px;
     text-align: center;
     margin: 10px;
-} 
-
+}
 .boton-contacto{
     background-color: #009d71;
     border-radius: 10px;
     margin-top: 10px;
-    font-weight: bold;    
+    font-weight: bold;
+    
+    
 }
 h1{
     font-family: graduate; color: #f6a801;
@@ -88,8 +89,7 @@ a{
     text-decoration: none;
 }
 
-
- .pieDePagina{
+.pieDePagina{
     background-color:#e0db3f;
   
     padding: 30px;
