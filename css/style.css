@@ -23,6 +23,7 @@
     text-shadow: 2px 2px 2px #d1d1d14a;
 }
 
+
 .logo{
     width: 8rem;
     height: 8rem;
@@ -32,26 +33,24 @@
     background-image: linear-gradient(to bottom, #004e5ff8, #e0db3f);
 }
 .cards{
-    width: 415px;
+    display: inline-block;    
     border-radius: 10px;
     border: solid 2px black;
     padding: 10px;
     text-align: center;
     margin: 15px;
 }
+.contenedor{
+    text-align: center;
+}
 .portada{
-    text-align: justify;
+    
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-.textos{
-    text-align: justify;
-    
-}
+
 
 .boton{
-    display: grid;
-    grid-template-columns: auto;
     font-family: 'Space Grotesk', sans-serif;
     text-decoration: none;
     border-radius: 10px;
@@ -60,7 +59,6 @@
     color: white;
     padding: 10px;
     text-align: center;
-    margin: 10px;
 }
 .boton-contacto{
     background-color: #009d71;
@@ -159,4 +157,18 @@ a{
     line-height: 1em;
     word-spacing: 0.5em;
     font-size: 150%;
+}
+.table{
+    margin-bottom: 0rem;
+}
+
+.texto-act{
+    font-size: 1.5rem;
+    
+    
+    color: black;
+    text-decoration: underline #796e58;
+    padding: 1rem;
+
+
 }
