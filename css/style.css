@@ -51,29 +51,19 @@
 
 
 .boton{
-    font-family: 'Space Grotesk', sans-serif;
-    text-decoration: none;
     border-radius: 10px;
+    border: #009d71;
     font-weight: bold;
     background-color: #009d71;
-    color: white;
     padding: 10px;
-    text-align: center;
-}
-.boton-contacto{
-    background-color: #009d71;
-    border-radius: 10px;
     margin-top: 10px;
-    font-weight: bold;
-    
-    
 }
+
 h1{
     font-family: graduate; color: #f6a801;
     font-weight: bold;
     text-align: center;
     font-size: 60px;
-    
     text-shadow: 1px 1px 1px red;
 }
 h2{
@@ -88,8 +78,7 @@ a{
 }
 
 .pieDePagina{
-    background-color:#e0db3f;
-  
+    background-color:#e0db3f;  
     padding: 30px;
 }
 .iconos{
@@ -103,23 +92,12 @@ a{
     display: inline-block;   
 } 
 
-.contacto__parrafo{
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    margin-bottom: 20px;
-    
-    text-shadow: 1px 1px 1px rgb(255, 221, 0);
-}
 .formulario__class{
     font-family: 'Space Grotesk', sans-serif;
     text-decoration: none;
     font-size: 20px;
     color: black;
     margin: 10px;
-
-
 }
 
 .carousel{
@@ -149,6 +127,7 @@ a{
 .tituloh3{
     font-family: cursive;
     color: aliceblue;
+    padding: 1rem;
 }
 
 .textoqs{
@@ -161,14 +140,13 @@ a{
 .table{
     margin-bottom: 0rem;
 }
-
-.texto-act{
-    font-size: 1.5rem;
-    
-    
-    color: black;
-    text-decoration: underline #796e58;
-    padding: 1rem;
-
-
+.divFooter{
+    text-align: center;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.737);
+    margin-bottom: 2em;
+    line-height: 2.5em;
+    font-family: graduate;
 }
+
+

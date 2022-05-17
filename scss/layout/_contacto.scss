@@ -1,0 +1,46 @@
+/* CONTACTO */
+
+.main{
+    h2{
+        font-family: graduate; color: #000000;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        text-shadow: 1px 1px 1px #f6a801;
+        .tituloh3{
+            font-family: cursive;
+            color: aliceblue;
+            padding: 1rem;
+        }
+    }
+    .formulario__class{
+        font-family: 'Space Grotesk', sans-serif;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        margin: 10px;
+        .boton{
+            border-radius: 10px;
+            border: #009d71;
+            font-weight: bold;
+            background-color: #009d71;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    }
+    .contenedor-responsivo {
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%;
+        margin-top: 20px;
+        .iframe-responsivo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    }
+
+}

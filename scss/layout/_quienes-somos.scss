@@ -1,0 +1,27 @@
+/* QUIENES SOMOS*/ 
+
+.main{
+    h2{
+        font-family: graduate; color: #000000;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        text-shadow: 1px 1px 1px #f6a801;
+    }
+    .tituloh3{
+        font-family: cursive;
+        color: aliceblue;
+        padding: 1rem;
+    }
+    .row{
+        .qsomos{
+         .textoqs{
+             margin: 10px 20px;
+             font-family: verdana, arial, helvetica;
+             line-height: 1em;
+             word-spacing: 0.5em;
+             font-size: 150%;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+/*GALERIA */ 
+
+.main{
+    h2{
+        font-family: graduate; color: #000000;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        text-shadow: 1px 1px 1px #f6a801;
+    }
+    .carrousel{
+        width: 90%;
+        height: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenedor-responsivo {
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%;
+        margin-top: 20px;
+    }
+}

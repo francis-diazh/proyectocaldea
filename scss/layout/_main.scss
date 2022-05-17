@@ -24,17 +24,12 @@ main{
         .textos{
             text-align: justify;
             .boton{
-                display: grid;
-                grid-template-columns: auto;
-                font-family: 'Space Grotesk', sans-serif;
-                text-decoration: none;
                 border-radius: 10px;
+                border: #009d71;
                 font-weight: bold;
                 background-color: #009d71;
-                color: white;
                 padding: 10px;
-                text-align: center;
-                margin: 10px;
+                margin-top: 10px;
             }
         }
 

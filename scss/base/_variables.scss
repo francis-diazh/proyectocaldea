@@ -21,22 +21,3 @@ $footer:(
     );
 
 
-/*EXTEND*/
-
-.boton-contacto{
-    background-color: #009d71;
-    border-radius: 10px;
-    margin: 10px;
-    font-weight: bold; 
-}
-
-.boton{
-    @extend .boton-contacto;
-    display: grid;
-    grid-template-columns: auto;
-    font-family: 'Space Grotesk', sans-serif;
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
