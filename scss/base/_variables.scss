@@ -5,14 +5,13 @@ $color-nav-textshadow: #d1d1d14a;
 $color-boton: #009d71;
 $color-footer: #e0db3f;
 
-@mixin cards ($ancho, $border, $aling) {
-    width: $ancho;
+@mixin cards ($border, $aling) {
+    display: inline-block;
     border-radius: $border;
     border: solid 2px black;
     padding: 10px;
     text-align: $aling;
     margin: 15px;
-    
 };
 
 $footer:(

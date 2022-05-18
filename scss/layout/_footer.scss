@@ -1,6 +1,14 @@
 .pieDePagina{
     background-color: map-get($footer, color );
     padding: map-get($footer, 30px );
+    .divFooter{
+        text-align: center;
+        font-size: 1em;
+        color: rgba(0, 0, 0, 0.737);
+        margin-bottom: 2em;
+        line-height: 2.5em;
+        font-family: graduate;
+    }
     .iconos{
         display: flex;
         flex-wrap: wrap;
@@ -11,4 +19,5 @@
              display: inline-block; 
         }
     }
+    
 }

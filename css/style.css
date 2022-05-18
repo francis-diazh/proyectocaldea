@@ -43,8 +43,7 @@
 .contenedor{
     text-align: center;
 }
-.portada{
-    
+.portada{   
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -73,9 +72,9 @@ h2{
     text-align: center;
     text-shadow: 1px 1px 1px #f6a801;
 }
-a{
+/* a{
     text-decoration: none;
-}
+} */
 
 .pieDePagina{
     background-color:#e0db3f;  

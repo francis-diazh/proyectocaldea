@@ -1,3 +1,8 @@
+@font-face {
+    font-family: graduate;
+  src: url("../fonts/Graduate-Regular.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 main{
     background-image: linear-gradient(to bottom, #004e5ff8, #e0db3f);
     h1{
@@ -7,33 +12,31 @@ main{
         font-size: 60px;
         text-shadow: 1px 1px 1px red;
     }
-    .cards{
-        @include cards(415px,10px,center);
-        .portada{
-            text-align: justify;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-        }
-        h2{
-            font-family: graduate; color: #000000;
-            font-weight: bold;
-            font-size: 40px;
-            text-align: center;
-            text-shadow: 1px 1px 1px #f6a801;
-        }
-        .textos{
-            text-align: justify;
-            .boton{
-                border-radius: 10px;
-                border: #009d71;
-                font-weight: bold;
-                background-color: #009d71;
-                padding: 10px;
-                margin-top: 10px;
+    .contenedor{
+        text-align: center;
+        .cards {
+            @include cards(10px,center);
+            .portada{
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+            }
+            .card-body{
+                h2{
+                    font-family: graduate; color: #000000;
+                    font-weight: bold;
+                    font-size: 40px;
+                    text-align: center;
+                    text-shadow: 1px 1px 1px #f6a801;
+                }
+                .boton{
+                    border-radius: 10px;
+                    border: #009d71;
+                    font-weight: bold;
+                    background-color: #009d71;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
             }
         }
-
     }
-
-
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
 .classHeader {
   background-color: #004e5ff8; }
   .classHeader .navbar .container-fluid .navbar-brand .logo {
@@ -19,6 +20,10 @@
     transition: 2s;
     text-shadow: none; }
 
+@font-face {
+  font-family: graduate;
+  src: url("../fonts/Graduate-Regular.ttf"); }
+
 main {
   background-image: linear-gradient(to bottom, #004e5ff8, #e0db3f); }
   main h1 {
@@ -28,27 +33,26 @@ main {
     text-align: center;
     font-size: 60px;
     text-shadow: 1px 1px 1px red; }
-  main .cards {
-    width: 415px;
-    border-radius: 10px;
-    border: solid 2px black;
-    padding: 10px;
-    text-align: center;
-    margin: 15px; }
-    main .cards .portada {
-      text-align: justify;
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px; }
-    main .cards h2 {
-      font-family: graduate;
-      color: #000000;
-      font-weight: bold;
-      font-size: 40px;
+  main .contenedor {
+    text-align: center; }
+    main .contenedor .cards {
+      display: inline-block;
+      border-radius: 10px;
+      border: solid 2px black;
+      padding: 10px;
       text-align: center;
-      text-shadow: 1px 1px 1px #f6a801; }
-    main .cards .textos {
-      text-align: justify; }
-      main .cards .textos .boton {
+      margin: 15px; }
+      main .contenedor .cards .portada {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px; }
+      main .contenedor .cards .card-body h2 {
+        font-family: graduate;
+        color: #000000;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        text-shadow: 1px 1px 1px #f6a801; }
+      main .contenedor .cards .card-body .boton {
         border-radius: 10px;
         border: #009d71;
         font-weight: bold;
@@ -59,6 +63,13 @@ main {
 .pieDePagina {
   background-color: #e0db3f;
   padding: 30px; }
+  .pieDePagina .divFooter {
+    text-align: center;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.737);
+    margin-bottom: 2em;
+    line-height: 2.5em;
+    font-family: graduate; }
   .pieDePagina .iconos {
     display: flex;
     flex-wrap: wrap;
