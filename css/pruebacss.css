@@ -24,41 +24,50 @@
   font-family: graduate;
   src: url("../fonts/Graduate-Regular.ttf"); }
 
-main {
+.main {
   background-image: linear-gradient(to bottom, #004e5ff8, #e0db3f); }
-  main h1 {
+  .main h1 {
     font-family: graduate;
     color: #f6a801;
     font-weight: bold;
     text-align: center;
     font-size: 60px;
     text-shadow: 1px 1px 1px red; }
-  main .contenedor {
+  .main .contenedor {
     text-align: center; }
-    main .contenedor .cards {
+    .main .contenedor .card {
       display: inline-block;
       border-radius: 10px;
       border: solid 2px black;
       padding: 10px;
       text-align: center;
-      margin: 15px; }
-      main .contenedor .cards .portada {
+      margin: 40px; }
+      .main .contenedor .card .portada {
         border-top-left-radius: 15px;
         border-top-right-radius: 15px; }
-      main .contenedor .cards .card-body h2 {
+      .main .contenedor .card .card-body .card-title {
         font-family: graduate;
         color: #000000;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 35px;
         text-align: center;
         text-shadow: 1px 1px 1px #f6a801; }
-      main .contenedor .cards .card-body .boton {
+      .main .contenedor .card .card-body .card-title-tres {
+        font-family: graduate;
+        color: #000000;
+        font-weight: bold;
+        font-size: 35px;
+        text-align: center;
+        text-shadow: 1px 1px 1px #f6a801; }
+      .main .contenedor .card .card-body .boton {
         border-radius: 10px;
         border: #009d71;
         font-weight: bold;
         background-color: #009d71;
         padding: 10px;
         margin-top: 10px; }
+    .main .contenedor .card:hover {
+      transform: scale(1.1); }
 
 .pieDePagina {
   background-color: #e0db3f;

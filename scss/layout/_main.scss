@@ -3,7 +3,7 @@
   src: url("../fonts/Graduate-Regular.ttf");
 }
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
-main{
+.main{
     background-image: linear-gradient(to bottom, #004e5ff8, #e0db3f);
     h1{
         font-family: graduate; color: #f6a801;
@@ -14,17 +14,25 @@ main{
     }
     .contenedor{
         text-align: center;
-        .cards {
-            @include cards(10px,center);
+
+        .card {
+            @include card(10px,center);
             .portada{
                 border-top-left-radius: 15px;
                 border-top-right-radius: 15px;
             }
             .card-body{
-                h2{
+                .card-title{
                     font-family: graduate; color: #000000;
                     font-weight: bold;
-                    font-size: 40px;
+                    font-size: 35px;
+                    text-align: center;
+                    text-shadow: 1px 1px 1px #f6a801;
+                }
+                .card-title-tres{
+                    font-family: graduate; color: #000000;
+                    font-weight: bold;
+                    font-size: 35px;
                     text-align: center;
                     text-shadow: 1px 1px 1px #f6a801;
                 }
@@ -37,6 +45,9 @@ main{
                     margin-top: 10px;
                 }
             }
+        }
+        .card:hover{
+            transform: scale(1.10);
         }
     }
 }
