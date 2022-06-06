@@ -1,4 +1,4 @@
-<img src="/imagenes/iconocaldea.png">
+<img src="/imagenes/iconocaldea.png" height: 15px width: 15px>
 
 # Proyecto Caldea Club
 
